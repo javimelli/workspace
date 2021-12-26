@@ -1,0 +1,17 @@
+La programacion reactiva combina las mejores ideas del patron obserbable, Iterator y la programacion funcional. Lo componentes a tener en cuanta son los siguientes:
+- Subject(Sujeto): Este sería el observable o publisher  es el que se encarga de emitir, procesar y propagar los cambios.
+Para notificarlos al observable. Es una cadena de eventos de cambios que pueden suceder a traves del flujo.
+- observer(Observable): Estos se subscriben a los subject y están a la escucha.
+
+--- Publisher
+    - Flux para manejar de 0 a n elementos.
+    - Mono para manejar de 0 a 1 elemento.
+
+ESPECIFICACION JAVA
+https://www.reactive-streams.org/
+https://github.com/reactive-streams/reactive-streams-jvm/blob/v1.0.3/README.md
+
+Project Reactor es la implementacion que usa Spring. Hay otras como ReactiveX. Esta ultima es multilenguaje.
+https://projectreactor.io/
+
+
