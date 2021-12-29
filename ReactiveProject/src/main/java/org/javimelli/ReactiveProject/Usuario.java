@@ -5,6 +5,10 @@ public class Usuario {
     private String nombre;
     private Long edad;
 
+    public Usuario(String nombre) {
+        this.nombre = nombre;
+    }
+
     public Usuario(String nombre, Long edad) {
         this.nombre = nombre;
         this.edad = edad;

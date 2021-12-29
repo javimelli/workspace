@@ -1,5 +1,5 @@
 La programacion reactiva combina las mejores ideas del patron obserbable, Iterator y la programacion funcional. Lo componentes a tener en cuanta son los siguientes:
-- Subject(Observable): Este sería el observable o publisher  es el que se encarga de emitir, procesar y propagar los cambios.
+- Subject(Observable, observado, sujeto): Este sería el observable o publisher  es el que se encarga de emitir, procesar y propagar los cambios.
 Para notificarlos al observable. Es una cadena de eventos de cambios que pueden suceder a traves del flujo.
 - observer(Observador): Estos se subscriben a los subject y están a la escucha.
 
